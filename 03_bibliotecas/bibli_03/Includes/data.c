@@ -11,7 +11,7 @@ int verificaDataValida(int dia, int mes, int ano){
                 return 0; //Nao valida caso essa condição nao seja satisfeita 
             }
         }
-        if (mes == 02){ //Para os meses bissestos 
+        if (mes == 02){ //Para os meses bissextos 
             if (verificaBissexto(ano) == 1){ // Para fevereiro primeiro tem que checar se o ano é bissexto 
                 if (dia >= 01 && dia <=29){ //Caso tenha 29 dias valida 
                     return 1;
@@ -30,7 +30,7 @@ int verificaDataValida(int dia, int mes, int ano){
             }
         }
         else{ // Para os outros meses todos tem 31 dias
-            if (dia <= 31){
+            if (dia >= 01 && dia <=31){
                 return 1; // Ou seja retorna 1 caso tenha os 31 dias
             }
             else {
@@ -44,38 +44,14 @@ int verificaDataValida(int dia, int mes, int ano){
 
 }
 void imprimeMesExtenso(int mes){
-    struct Meses { //Declara a struct localmente que tem o máximo de 20 caractéres
-        char nome [20]; //Define um char de 20 caracteres  
-    };
-    struct Meses meses[12] = { //Cria uma struct com um array de 12 meses, o valor do mes digitado corresponde ao mes por extenso na struct
-        {"Janeiro"}, {"Fevereiro"}, {"Março"}, {"Abril"}, {"Maio"}, {"Junho"},
-        {"Julho"}, {"Agosto"}, {"Setembro"}, {"Outubro"}, {"Novembro"}, {"Dezembro"}
-    };  
-
-    printf("%s\n", meses[mes].nome); //Printa o mes 
+    char meses[12][10] = {"Janeiro", // Cria uma lista de meses para os meses. 
+                       "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro" , "Novembro", "Dezembro"};
+    printf("%s", meses[mes - 1]); //Printa o mes 
 }
 
 void imprimeDataExtenso(int dia, int mes, int ano){
-    struct Dias {
-        char numero[20]; //Define um char de 20 caracteres 
-    }; 
-    if (dia >= 1 && dia <= 9){
-        struct Dias dias [10] = {
-        "Um", "Dois", "Três", "Quatro", "Cinco", "Seis",
-        "Sete", "Oito", "Nove"
-        };
-
-    } 
-    if (dia >= 10 && dia <= 19){
-        struct Dias dias [10]= {
-            "Dez", "Onze", "Doze", "Treze", "Quatorze", "Quinze",
-            "Dezesseis", "Dezessete", "Dezeoito", "Dezenove"
-        };
-    }
-    imprimeMesExtenso(mes);
-    printf("%d", ano); 
+    printf("%d de ", dia); imprimeMesExtenso(mes); printf( " de %d\n", ano); //Printa a data por extenso 
 }
-
 
 int verificaBissexto(int ano){
     if (ano %4 == 0){ // Caso o resto da divisão seja 0 o ano é bissexto
@@ -94,10 +70,19 @@ int verificaBissexto(int ano){
  * @return int Retorna o número de dias do mês.
  */
 int numeroDiasMes(int mes, int ano){
-    if (verificaBissexto(ano) == 1){
+    if (mes == 04 || mes == 06 || mes == 9 || mes == 11){
+        return 30; //Retorna 30 caso seja alguns desses meses acima
     }
-    else{
-
+    if (mes == 2){
+        if (verificaBissexto(ano) == 1){
+            return 29; // Se o ano for bissexto retorna 29, numero de dias de fevereiro, vulgo mês 02. 
+        }
+        else {
+            return 28; //Caso não retorna 28 
+        }
+    }
+    else {
+        return 31; //De resto todos os meses tem 31 dias. 
     }
 }
 
@@ -115,10 +100,33 @@ int numeroDiasMes(int mes, int ano){
  * A data ser "maior" significa que ela está mais no futuro.
  */
 int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2){
-
+    if (ano1 > ano2){
+        return 1;
+    }
+    
+    if (ano1 == ano2){
+        if (mes1> mes2){
+            return 1;
+        }
+        if (mes1 == mes2){
+            if (dia1>dia2){
+                return 1;
+            }
+            if (dia2 == dia1){
+                return 0;
+            }
+            if (dia1 < dia2){
+                return -1; 
+            }
+        } 
+        if (mes2 <mes1){
+            return -1; 
+        }
+    }
+    if (ano1 < ano2){
+        return -1; 
+    }
 }
-
-
 /**
  * @brief Calcula o número de dias até o mês.
  * 
@@ -127,7 +135,12 @@ int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2){
  * @return int Retorna o número de dias até o mês.
 */
 int calculaDiasAteMes(int mes, int ano){
-
+    int cont = 0;
+    for (int i = 1; i < mes; i ++){ 
+        numeroDiasMes(i, ano); 
+        cont += numeroDiasMes(i, ano);  
+    }
+    return cont; 
 }
 
 /**
@@ -142,5 +155,170 @@ int calculaDiasAteMes(int mes, int ano){
  * @return int Retorna o número de dias de diferença entre as datas.
  */
 int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2){
-
+    int dif = 0; 
+    if (ano1 > ano2){
+            for (ano2; ano2 < ano1; ano2++){
+            if(verificaBissexto(ano2)== 1){
+                dif += 366;
+            }
+            else {
+                dif += 365; 
+            }
+        } 
+        if (mes1 > mes2){
+            for (mes2; mes2 < mes1; mes2 ++){ // Cria umn loop de meses até chegar no mês desejado
+                numeroDiasMes(mes2, ano1); //Chama a função para calcular o número de meses na iteração do mês seguinte. 
+                dif += numeroDiasMes(mes2, ano1); // Armazena o valor de número de dias por mês na váriavel diff
+            }
+            if (dia1 > dia2){ // Depois temos as condicionais para ver se a diferencça de dias, já que já temos a de mês
+                dif += (dia1 - dia2); // Pega a difereça dos dias e armazena na varíavel dif
+                return dif;  
+            }
+            if (dia1 == dia2){ // Caso os dias sejam iguais a varíavel dif fica somente com a difença de meses 
+                return dif; 
+            }
+            if (dia1 < dia2){
+                dif += (dia2 - dia1); //Analogo a dia1>dia2 só que invertido 
+                return dif; 
+            } 
+        }
+        if (mes1 == mes2){ //Caso os meses são iguais temos que somente calcular a diferença de dias
+            if (dia1 > dia2){
+                dif += (dia1 - dia2);
+                return dif;  
+            }
+            if (dia1 == dia2){
+                return dif; 
+            }
+            if (dia1 < dia2){
+                dif += (dia2 - dia1);
+                return dif; 
+            }
+        }
+        if (mes1 < mes2){
+            for (mes1; mes1 < mes2; mes1 ++){
+                numeroDiasMes(mes1, ano1);
+                dif += numeroDiasMes(mes1, ano1); 
+            }
+            if (dia1 > dia2){
+                dif += (dia1 - dia2);
+                return dif;  
+            }
+            if (dia1 == dia2){
+                return dif; 
+            }
+            if (dia1 < dia2){
+                dif += (dia2 - dia1);
+                return dif; 
+            } 
+        }
+    }
+    
+    if (ano1 == ano2){ // Verifica se o ano é o mesmo das opções anteriores. 
+        if (mes1 > mes2){
+            for (mes2; mes2 < mes1; mes2 ++){ // Cria umn loop de meses até chegar no mês desejado
+                numeroDiasMes(mes2, ano1); //Chama a função para calcular o número de meses na iteração do mês seguinte. 
+                dif += numeroDiasMes(mes2, ano1); // Armazena o valor de número de dias por mês na váriavel diff
+            }
+            if (dia1 > dia2){ // Depois temos as condicionais para ver se a diferencça de dias, já que já temos a de mês
+                dif += (dia1 - dia2); // Pega a difereça dos dias e armazena na varíavel dif
+                return dif;  
+            }
+            if (dia1 == dia2){ // Caso os dias sejam iguais a varíavel dif fica somente com a difença de meses 
+                return dif; 
+            }
+            if (dia1 < dia2){
+                dif += (dia2 - dia1); //Analogo a dia1>dia2 só que invertido 
+                return dif; 
+            } 
+        }
+        if (mes1 == mes2){ //Caso os meses são iguais temos que somente calcular a diferença de dias
+            if (dia1 > dia2){
+                dif += (dia1 - dia2);
+                return dif;  
+            }
+            if (dia1 == dia2){
+                return dif; 
+            }
+            if (dia1 < dia2){
+                dif += (dia2 - dia1);
+                return dif; 
+            }
+        }
+        if (mes1 < mes2){
+            for (mes1; mes1 < mes2; mes1 ++){
+                numeroDiasMes(mes1, ano1);
+                dif += numeroDiasMes(mes1, ano1); 
+            }
+            if (dia1 > dia2){
+                dif += (dia1 - dia2);
+                return dif;  
+            }
+            if (dia1 == dia2){
+                return dif; 
+            }
+            if (dia1 < dia2){
+                dif += (dia2 - dia1);
+                return dif; 
+            } 
+        }
+    }
+    
+    if (ano2 > ano1){
+        for (ano1; ano1 < ano2; ano2++){
+            if(verificaBissexto(ano1)== 1){
+                dif += 366;
+            }
+            else {
+                dif += 365; 
+            }
+        } 
+        if (mes1 > mes2){
+            for (mes2; mes2 < mes1; mes2 ++){ // Cria umn loop de meses até chegar no mês desejado
+                numeroDiasMes(mes2, ano1); //Chama a função para calcular o número de meses na iteração do mês seguinte. 
+                dif += numeroDiasMes(mes2, ano1); // Armazena o valor de número de dias por mês na váriavel diff
+            }
+            if (dia1 > dia2){ // Depois temos as condicionais para ver se a diferencça de dias, já que já temos a de mês
+                dif += (dia1 - dia2); // Pega a difereça dos dias e armazena na varíavel dif
+                return dif;  
+            }
+            if (dia1 == dia2){ // Caso os dias sejam iguais a varíavel dif fica somente com a difença de meses 
+                return dif; 
+            }
+            if (dia1 < dia2){
+                dif += (dia2 - dia1); //Analogo a dia1>dia2 só que invertido 
+                return dif; 
+            } 
+        }
+        if (mes1 == mes2){ //Caso os meses são iguais temos que somente calcular a diferença de dias
+            if (dia1 > dia2){
+                dif += (dia1 - dia2);
+                return dif;  
+            }
+            if (dia1 == dia2){
+                return dif; 
+            }
+            if (dia1 < dia2){
+                dif += (dia2 - dia1);
+                return dif; 
+            }
+        }
+        if (mes1 < mes2){
+            for (mes1; mes1 < mes2; mes1 ++){
+                numeroDiasMes(mes1, ano1);
+                dif += numeroDiasMes(mes1, ano1); 
+            }
+            if (dia1 > dia2){
+                dif += (dia1 - dia2);
+                return dif;  
+            }
+            if (dia1 == dia2){
+                return dif; 
+            }
+            if (dia1 < dia2){
+                dif += (dia2 - dia1);
+                return dif; 
+            } 
+        }
+    }
 }

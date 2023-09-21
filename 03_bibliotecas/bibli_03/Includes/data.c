@@ -155,9 +155,11 @@ int calculaDiasAteMes(int mes, int ano){
  * @return int Retorna o número de dias de diferença entre as datas.
  */
 int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2){
-    int dif = 0; 
+    
+    int dif = 0;
+
     if (ano1 > ano2){
-            for (ano2; ano2 < ano1; ano2++){
+        for (ano2; ano2 < ano1; ano2++){
             if(verificaBissexto(ano2)== 1){
                 dif += 366;
             }
@@ -167,20 +169,11 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
         } 
         if (mes1 > mes2){
             for (mes2; mes2 < mes1; mes2 ++){ // Cria umn loop de meses até chegar no mês desejado
-                numeroDiasMes(mes2, ano1); //Chama a função para calcular o número de meses na iteração do mês seguinte. 
-                dif += numeroDiasMes(mes2, ano1); // Armazena o valor de número de dias por mês na váriavel diff
+                numeroDiasMes(mes2, ano2); //Chama a função para calcular o número de meses na iteração do mês seguinte. 
+                dif += (numeroDiasMes(mes2, ano2) - dia2); // Armazena o valor de número de dias por mês na váriavel diff
             }
-            if (dia1 > dia2){ // Depois temos as condicionais para ver se a diferencça de dias, já que já temos a de mês
-                dif += (dia1 - dia2); // Pega a difereça dos dias e armazena na varíavel dif
-                return dif;  
-            }
-            if (dia1 == dia2){ // Caso os dias sejam iguais a varíavel dif fica somente com a difença de meses 
-                return dif; 
-            }
-            if (dia1 < dia2){
-                dif += (dia2 - dia1); //Analogo a dia1>dia2 só que invertido 
-                return dif; 
-            } 
+            dif += dia1; 
+            return dif; 
         }
         if (mes1 == mes2){ //Caso os meses são iguais temos que somente calcular a diferença de dias
             if (dia1 > dia2){
@@ -198,19 +191,10 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
         if (mes1 < mes2){
             for (mes1; mes1 < mes2; mes1 ++){
                 numeroDiasMes(mes1, ano1);
-                dif += numeroDiasMes(mes1, ano1); 
+                dif += (numeroDiasMes(mes1, ano1)- dia1); 
             }
-            if (dia1 > dia2){
-                dif += (dia1 - dia2);
-                return dif;  
-            }
-            if (dia1 == dia2){
-                return dif; 
-            }
-            if (dia1 < dia2){
-                dif += (dia2 - dia1);
-                return dif; 
-            } 
+            dif += dia1; 
+            return dif; 
         }
     }
     
@@ -218,19 +202,10 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
         if (mes1 > mes2){
             for (mes2; mes2 < mes1; mes2 ++){ // Cria umn loop de meses até chegar no mês desejado
                 numeroDiasMes(mes2, ano1); //Chama a função para calcular o número de meses na iteração do mês seguinte. 
-                dif += numeroDiasMes(mes2, ano1); // Armazena o valor de número de dias por mês na váriavel diff
+                dif += (numeroDiasMes(mes2, ano1)- dia2); // Armazena o valor de número de dias por mês na váriavel diff
             }
-            if (dia1 > dia2){ // Depois temos as condicionais para ver se a diferencça de dias, já que já temos a de mês
-                dif += (dia1 - dia2); // Pega a difereça dos dias e armazena na varíavel dif
-                return dif;  
-            }
-            if (dia1 == dia2){ // Caso os dias sejam iguais a varíavel dif fica somente com a difença de meses 
-                return dif; 
-            }
-            if (dia1 < dia2){
-                dif += (dia2 - dia1); //Analogo a dia1>dia2 só que invertido 
-                return dif; 
-            } 
+            dif += dia1;
+            return dif; 
         }
         if (mes1 == mes2){ //Caso os meses são iguais temos que somente calcular a diferença de dias
             if (dia1 > dia2){
@@ -248,24 +223,14 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
         if (mes1 < mes2){
             for (mes1; mes1 < mes2; mes1 ++){
                 numeroDiasMes(mes1, ano1);
-                dif += numeroDiasMes(mes1, ano1); 
+                dif +=  (numeroDiasMes(mes1, ano1) - dia1); 
             }
-            if (dia1 > dia2){
-                dif += (dia1 - dia2);
-                return dif;  
-            }
-            if (dia1 == dia2){
-                return dif; 
-            }
-            if (dia1 < dia2){
-                dif += (dia2 - dia1);
-                return dif; 
-            } 
+            dif += dia2; 
         }
     }
     
     if (ano2 > ano1){
-        for (ano1; ano1 < ano2; ano2++){
+        for (ano1; ano1 < ano2; ano1++){
             if(verificaBissexto(ano1)== 1){
                 dif += 366;
             }
@@ -275,20 +240,11 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
         } 
         if (mes1 > mes2){
             for (mes2; mes2 < mes1; mes2 ++){ // Cria umn loop de meses até chegar no mês desejado
-                numeroDiasMes(mes2, ano1); //Chama a função para calcular o número de meses na iteração do mês seguinte. 
-                dif += numeroDiasMes(mes2, ano1); // Armazena o valor de número de dias por mês na váriavel diff
+                numeroDiasMes(mes2, ano1);
+                //Chama a função para calcular o número de meses na iteração do mês seguinte. 
+                dif += (numeroDiasMes(mes2, ano1) - dia2); // Armazena o valor de número de dias por mês na váriavel diff
             }
-            if (dia1 > dia2){ // Depois temos as condicionais para ver se a diferencça de dias, já que já temos a de mês
-                dif += (dia1 - dia2); // Pega a difereça dos dias e armazena na varíavel dif
-                return dif;  
-            }
-            if (dia1 == dia2){ // Caso os dias sejam iguais a varíavel dif fica somente com a difença de meses 
-                return dif; 
-            }
-            if (dia1 < dia2){
-                dif += (dia2 - dia1); //Analogo a dia1>dia2 só que invertido 
-                return dif; 
-            } 
+            dif += dia1; 
         }
         if (mes1 == mes2){ //Caso os meses são iguais temos que somente calcular a diferença de dias
             if (dia1 > dia2){
@@ -306,19 +262,10 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
         if (mes1 < mes2){
             for (mes1; mes1 < mes2; mes1 ++){
                 numeroDiasMes(mes1, ano1);
-                dif += numeroDiasMes(mes1, ano1); 
+                dif += (numeroDiasMes(mes1, ano1) - dia1); 
             }
-            if (dia1 > dia2){
-                dif += (dia1 - dia2);
-                return dif;  
-            }
-            if (dia1 == dia2){
-                return dif; 
-            }
-            if (dia1 < dia2){
-                dif += (dia2 - dia1);
-                return dif; 
-            } 
+            dif += dia2; 
+            return dif; 
         }
     }
 }

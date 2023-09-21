@@ -9,6 +9,5 @@ int main(){
     verificaDataValida(dia2, mes2, ano2); 
     imprimeDataExtenso(dia1, mes1, ano1); 
     imprimeDataExtenso(dia2, mes2, ano2); 
-    printf("\n%d\n", calculaDiasAteMes(mes1, ano1)); 
     printf("\n%d\n", calculaDiferencaDias(dia1, mes1, ano1, dia2, mes2, ano2)); 
 }

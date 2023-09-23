@@ -154,6 +154,7 @@ int calculaDiasAteMes(int mes, int ano){
  * @param ano2 Ano da segunda data.
  * @return int Retorna o número de dias de diferença entre as datas.
  */
+//Desistindo por dentro 
 int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2){
     
     int dif = 0;

@@ -1,2 +1,0 @@
-/usr/bin/ld: cannot find Resultados/Joao/.vscode/completo/*.o: No such file or directory
-collect2: error: ld returned 1 exit status

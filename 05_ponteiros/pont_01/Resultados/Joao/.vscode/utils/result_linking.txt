@@ -1,3 +1,0 @@
-/usr/bin/ld: Resultados/Joao/.vscode/utils/main.o: in function `main':
-main.c:(.text+0x2c): undefined reference to `TrocaInterios'
-collect2: error: ld returned 1 exit status

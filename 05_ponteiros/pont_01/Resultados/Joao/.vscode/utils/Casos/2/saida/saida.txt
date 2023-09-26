@@ -1,0 +1,1 @@
+timeout: failed to run command ‘Resultados/Joao/.vscode/utils/prog’: No such file or directory

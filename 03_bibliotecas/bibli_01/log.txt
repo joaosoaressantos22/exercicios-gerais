@@ -1,4 +1,3 @@
-Ignorando o Valgrind
 Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
  - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
 #######################################
@@ -68,29 +67,41 @@ LINKANDO OS ARQUIVOS COMPILADOS:
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta esfera_utils / Caso 1:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
  - Pasta esfera_utils / Caso 2:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
  - Pasta esfera_utils / Caso 3:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
  - Pasta esfera_utils / Caso 4:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
  - Pasta main / Caso 1:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
  - Pasta main / Caso 2:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
  - Pasta main / Caso 3:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
  - Pasta main / Caso 4:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
  - Pasta completo / Caso 1:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
  - Pasta completo / Caso 2:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
  - Pasta completo / Caso 3:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
  - Pasta completo / Caso 4:
- - Resultado para o saida.txt: Ok!
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
 
 #######################################
 RESULTADOS FINAIS
@@ -101,9 +112,12 @@ Nome 0: Joao
  - Arquivos Corretos: 3 de 3 / Nota 
  - Compilações Corretas: 6 de 6 / Nota 
  - Linkagens Corretas: 3 de 3 / Nota 
- - Resultados Corretos esfera_utils: 4 de 4 / Nota 
- - Resultados Corretos main: 4 de 4 / Nota 
- - Resultados Corretos completo: 4 de 4 / Nota 
+ - Resultados Corretos esfera_utils: 0 de 4 / Nota 
+ - Valgrinds Corretos esfera_utils: 0 de 4 / Nota 
+ - Resultados Corretos main: 0 de 4 / Nota 
+ - Valgrinds Corretos main: 0 de 4 / Nota 
+ - Resultados Corretos completo: 0 de 4 / Nota 
+ - Valgrinds Corretos completo: 0 de 4 / Nota 
  - Soma das notas do Joao: 
  - Campos Considerados: 
  - Média do Joao: 

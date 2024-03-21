@@ -1,2 +1,1 @@
 Casos/3/img-1-int.bin
-10

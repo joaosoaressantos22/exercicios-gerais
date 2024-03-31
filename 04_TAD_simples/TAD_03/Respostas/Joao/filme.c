@@ -89,10 +89,10 @@ int ehMesmoCodigoFilme (tFilme filme, int codigo){
  * @return Filme com a quantidade alugada atualizada.
  */
 tFilme alugarFilme (tFilme filme){
-    if (filme.qtdEstoque > 0 && filme.qtdEstoque > filme.qtdAlugada){
+    if (filme.qtdEstoque > 0){
         filme.qtdEstoque--, filme.qtdAlugada++;
+        return filme;
     }
-    return filme;
 }
 
 /**

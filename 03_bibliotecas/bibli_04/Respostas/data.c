@@ -183,11 +183,11 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
         }
         if (mes1 > mes2){
             difer += (calculaDiasAteMes(mes1, ano2)) - (calculaDiasAteMes(mes2, ano2));
-            if (dia2 > dia1) difer += (dia1 - dia2);
+            if (dia2 > dia1) difer += (dia2 - dia1);
             else if (dia2 < dia1) difer += (dia2 - dia1);
         }
         else if (mes2 == mes1){
-            if (dia2 > dia1) difer += (dia1 - dia2);
+            if (dia2 > dia1) difer += (dia2 - dia1);
             else if (dia2 < dia1) difer += (dia2 - dia1);
         }
         if (mes1 < mes2){
@@ -208,7 +208,7 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
         }
         else if (mes2 == mes1){
             if (dia2 > dia1) difer += (dia1 - dia2);
-            else if (dia2 < dia1) difer += (dia2 - dia1);
+            else if (dia2 < dia1) difer += (dia1 - dia2);
         }
         if (mes2 < mes1){
             difer += (calculaDiasAteMes(mes1, ano2)) - (calculaDiasAteMes(mes2, ano2));
@@ -218,6 +218,7 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
     }
     return difer;
 }
+
 void imprimeProximaData(int dia, int mes, int ano){
     if (numeroDiasMes(mes, ano) == dia && mes == 12) printf("A data seguinte é: 01/01/%d", ano + 1);
     else if (numeroDiasMes(mes, ano) == dia && mes != 12) printf("A data seguinte é: 01/%d/%d",mes + 1, ano);

@@ -85,12 +85,16 @@ int numeroDiasMes(int mes, int ano){
         if(verificaBissexto(ano) == 1) return 29;
         else if (verificaBissexto(ano) == 0) return 28;
     }
-    else if (0 < mes <= 7 && mes != 2){
-        if (mes%2 != 0) return 31;
+    else if (7 >= mes > 0){
+        if (mes%2 != 0){
+            return 31;
+        }
         else return 30;
     }
     else if (7 < mes <= 12){
-        if (mes%2 != 0) return 31;
+        if (mes%2 == 0){
+            return 31;
+        }
         else return 30;
     }
 }
@@ -128,14 +132,17 @@ int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2){
 
         else if (ano1 == ano2){
 
-            if(mes1 < mes2) return 1;
-
+            if(mes1 < mes2){
+                return 1;
+            }
             else if (mes1 == mes2){
 
                 if (dia1 < dia2)return 1;
                 
-                else if (dia1 == dia2) return 0;
+                else if (dia1 == dia2){
 
+                    return 0;
+                }
                 else if (dia1 > dia2) return -1;
             }
 

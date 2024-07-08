@@ -8,10 +8,12 @@ typedef struct{
 } cord; 
 
 int acertouAlvo(float cX, float cY, float cR, float tX, float tY, float tR){
-    if ((cR + tR) < sqrt(pow(cX - tX, 2) +pow(cY,tY))){
+    if ((cR + tR) >= sqrt(pow(cX - tX, 2) + pow(cY - tY, 2))){
+        
         return 0; 
     }
     else {
+        
         return 1; 
     }
 }
@@ -21,7 +23,7 @@ int main(){
     cord coC; //Coordenada do circulo original 
     cord coT; //Coordenada do tiro
     scanf("%f%f%f%f%f%f", &coC.x, &coC.y, &coC.r, &coT.x, &coT.y, &coT.r);
-    if (acertouAlvo(coC.x, coC.y, coC.r, coT.x, coT.y, coT.r) != 1){
+    if (acertouAlvo(coC.x, coC.y, coC.r, coT.x, coT.y, coT.r) == 0){
         printf("Acertou");
     } 
     else {

@@ -8,7 +8,5 @@ int TrocaInterios(int * n1, int * n2){
         *n2 = numero;
         return 1; 
     }
-    else {
-        return 0;
-    }
+    return 0;
 }

@@ -1,0 +1,174 @@
+==50675== Memcheck, a memory error detector
+==50675== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==50675== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==50675== Command: Resultados/Joao/filme/prog Resultados/Joao/filme/Casos/6
+==50675== Parent PID: 50674
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48D6AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x1097FD: cadastrarFilmeLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x109933: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10A960: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Use of uninitialised value of size 8
+==50675==    at 0x48BA2EB: _itoa_word (_itoa.c:177)
+==50675==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x1097FD: cadastrarFilmeLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x109933: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10A960: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48BA2FC: _itoa_word (_itoa.c:177)
+==50675==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x1097FD: cadastrarFilmeLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x109933: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10A960: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48D65C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x1097FD: cadastrarFilmeLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x109933: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10A960: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48D5C05: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x1097FD: cadastrarFilmeLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x109933: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10A960: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x484ED19: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==50675==    by 0x48D6D30: __vfprintf_internal (vfprintf-internal.c:1517)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x109382: imprimirNomeFilme (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x109841: cadastrarFilmeLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x109933: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10A960: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x1093BE: ehMesmoCodigoFilme (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10961C: verificarFilmeCadastrado (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x1096CC: cadastrarFilmeLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x109933: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10A960: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48D6AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x10A7A9: consultarEstoqueLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10AB3F: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Use of uninitialised value of size 8
+==50675==    at 0x48BA2EB: _itoa_word (_itoa.c:177)
+==50675==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x10A7A9: consultarEstoqueLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10AB3F: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48BA2FC: _itoa_word (_itoa.c:177)
+==50675==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x10A7A9: consultarEstoqueLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10AB3F: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48D65C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x10A7A9: consultarEstoqueLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10AB3F: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48D5C05: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x10A7A9: consultarEstoqueLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10AB3F: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48D6AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x10A865: consultarEstoqueLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10AB3F: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Use of uninitialised value of size 8
+==50675==    at 0x48BA2EB: _itoa_word (_itoa.c:177)
+==50675==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x10A865: consultarEstoqueLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10AB3F: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48BA2FC: _itoa_word (_itoa.c:177)
+==50675==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x10A865: consultarEstoqueLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10AB3F: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48D65C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x10A865: consultarEstoqueLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10AB3F: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x48D5C05: __vfprintf_internal (vfprintf-internal.c:1516)
+==50675==    by 0x48C079E: printf (printf.c:33)
+==50675==    by 0x10A865: consultarEstoqueLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10AB3F: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== Conditional jump or move depends on uninitialised value(s)
+==50675==    at 0x1093BE: ehMesmoCodigoFilme (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x109AA5: alugarFilmesLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x109E86: lerAluguelLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==    by 0x10A9EB: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675==  Uninitialised value was created by a stack allocation
+==50675==    at 0x1098AD: lerCadastroLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/filme/prog)
+==50675== 
+==50675== 
+==50675== HEAP SUMMARY:
+==50675==     in use at exit: 0 bytes in 0 blocks
+==50675==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==50675== 
+==50675== All heap blocks were freed -- no leaks are possible
+==50675== 
+==50675== For lists of detected and suppressed errors, rerun with: -s
+==50675== ERROR SUMMARY: 31 errors from 18 contexts (suppressed: 0 from 0)

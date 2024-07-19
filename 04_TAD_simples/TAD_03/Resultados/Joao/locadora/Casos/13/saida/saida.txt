@@ -1,0 +1,18 @@
+
+Filme cadastrado 2 - Tomb Raider
+Filme cadastrado 3 - Sword Fish
+
+~ESTOQUE~
+3 - Sword Fish Fitas em Estoque: 1. Tem 0 alugadas
+2 - Tomb Raider Fitas em Estoque: 1. Tem 0 alugadas
+
+Lucro total: 0
+
+
+Filme 2 devolvido:
+~ESTOQUE~
+3 - Sword Fish Fitas em Estoque: 1. Tem 0 alugadas
+2 - Tomb Raider Fitas em Estoque: 1. Tem 0 alugadas
+
+Lucro total: 5
+Lucro total: 5

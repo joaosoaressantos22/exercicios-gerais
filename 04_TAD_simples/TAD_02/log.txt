@@ -1,0 +1,330 @@
+Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: Joao
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Joao:
+ - Diretório Resultados/Joao criado com sucesso!
+ - Diretório Resultados/Joao/candidato criado com sucesso!
+ - Diretório Resultados/Joao/eleicao criado com sucesso!
+ - Diretório Resultados/Joao/eleitor criado com sucesso!
+ - Diretório Resultados/Joao/main criado com sucesso!
+ - Diretório Resultados/Joao/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Joao/candidato.c' encontrado!
+ - Arquivo esperado 'Respostas/Joao/candidato.h' encontrado!
+ - Arquivo esperado 'Respostas/Joao/eleicao.c' encontrado!
+ - Arquivo esperado 'Respostas/Joao/eleicao.h' encontrado!
+ - Arquivo esperado 'Respostas/Joao/eleitor.c' encontrado!
+ - Arquivo esperado 'Respostas/Joao/eleitor.h' encontrado!
+ - Arquivo esperado 'Respostas/Joao/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta candidato:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/candidato
+ - Copiando os 'Respostas/Joao/*.h' do aluno para a pasta Resultados/Joao/candidato
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Joao/candidato
+ - Copiando os 'Respostas/Joao/*.c' do aluno para a pasta Resultados/Joao/candidato
+ - Pasta eleicao:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/eleicao
+ - Copiando os 'Respostas/Joao/*.h' do aluno para a pasta Resultados/Joao/eleicao
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Joao/eleicao
+ - Copiando os 'Respostas/Joao/*.c' do aluno para a pasta Resultados/Joao/eleicao
+ - Pasta eleitor:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/eleitor
+ - Copiando os 'Respostas/Joao/*.h' do aluno para a pasta Resultados/Joao/eleitor
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Joao/eleitor
+ - Copiando os 'Respostas/Joao/*.c' do aluno para a pasta Resultados/Joao/eleitor
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/main
+ - Copiando os 'Respostas/Joao/*.h' do aluno para a pasta Resultados/Joao/main
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Joao/main
+ - Copiando os 'Respostas/Joao/*.c' do aluno para a pasta Resultados/Joao/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/completo
+ - Copiando os 'Respostas/Joao/*.h' do aluno para a pasta Resultados/Joao/completo
+ - Copiando os 'Respostas/Joao/*.c' do aluno para a pasta Resultados/Joao/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta candidato:
+ - Compilando o arquivo candidato.c do aluno, gerando o candidato.o
+ - Compilando o arquivo eleicao.c do aluno, gerando o eleicao.o
+ - Compilando o arquivo eleitor.c do aluno, gerando o eleitor.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Joao/candidato/result_compilation.txt.
+ - Pasta eleicao:
+ - Compilando o arquivo candidato.c do aluno, gerando o candidato.o
+ - Compilando o arquivo eleicao.c do aluno, gerando o eleicao.o
+ - Compilando o arquivo eleitor.c do aluno, gerando o eleitor.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Joao/eleicao/result_compilation.txt.
+ - Pasta eleitor:
+ - Compilando o arquivo candidato.c do aluno, gerando o candidato.o
+ - Compilando o arquivo eleicao.c do aluno, gerando o eleicao.o
+ - Compilando o arquivo eleitor.c do aluno, gerando o eleitor.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Joao/eleitor/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo candidato.c do aluno, gerando o candidato.o
+ - Compilando o arquivo eleicao.c do aluno, gerando o eleicao.o
+ - Compilando o arquivo eleitor.c do aluno, gerando o eleitor.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Joao/main/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo candidato.c do aluno, gerando o candidato.o
+ - Compilando o arquivo eleicao.c do aluno, gerando o eleicao.o
+ - Compilando o arquivo eleitor.c do aluno, gerando o eleitor.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Joao/completo/result_compilation.txt.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Joao:
+ - Copiando o Gabarito-obj/candidato.o para a pasta Resultados/Joao/eleicao
+ - Copiando o Gabarito-obj/candidato.o para a pasta Resultados/Joao/eleitor
+ - Copiando o Gabarito-obj/candidato.o para a pasta Resultados/Joao/main
+ - Copiando o Gabarito-obj/eleicao.o para a pasta Resultados/Joao/candidato
+ - Copiando o Gabarito-obj/eleicao.o para a pasta Resultados/Joao/eleitor
+ - Copiando o Gabarito-obj/eleicao.o para a pasta Resultados/Joao/main
+ - Copiando o Gabarito-obj/eleitor.o para a pasta Resultados/Joao/candidato
+ - Copiando o Gabarito-obj/eleitor.o para a pasta Resultados/Joao/eleicao
+ - Copiando o Gabarito-obj/eleitor.o para a pasta Resultados/Joao/main
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Joao/candidato
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Joao/eleicao
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Joao/eleitor
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta candidato:
+ - Gerando o binário prog linkando com o(s) arquivo(s) candidato/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Joao/candidato/result_linking.txt
+ - Pasta eleicao:
+ - Gerando o binário prog linkando com o(s) arquivo(s) eleicao/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Joao/eleicao/result_linking.txt
+ - Pasta eleitor:
+ - Gerando o binário prog linkando com o(s) arquivo(s) eleitor/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Joao/eleitor/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Joao/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Joao/completo/result_linking.txt
+ - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta candidato / Caso 1:
+ - Arquivo de output gerado: Resultados/Joao/candidato/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta candidato / Caso 10:
+ - Arquivo de output gerado: Resultados/Joao/candidato/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta candidato / Caso 2:
+ - Arquivo de output gerado: Resultados/Joao/candidato/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta candidato / Caso 3:
+ - Arquivo de output gerado: Resultados/Joao/candidato/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta candidato / Caso 4:
+ - Arquivo de output gerado: Resultados/Joao/candidato/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta candidato / Caso 5:
+ - Arquivo de output gerado: Resultados/Joao/candidato/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta candidato / Caso 6:
+ - Arquivo de output gerado: Resultados/Joao/candidato/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta candidato / Caso 7:
+ - Arquivo de output gerado: Resultados/Joao/candidato/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta candidato / Caso 8:
+ - Arquivo de output gerado: Resultados/Joao/candidato/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta candidato / Caso 9:
+ - Arquivo de output gerado: Resultados/Joao/candidato/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleicao / Caso 1:
+ - Arquivo de output gerado: Resultados/Joao/eleicao/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 4.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleicao / Caso 10:
+ - Arquivo de output gerado: Resultados/Joao/eleicao/Casos/10/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 7.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta eleicao / Caso 2:
+ - Arquivo de output gerado: Resultados/Joao/eleicao/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 3.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleicao / Caso 3:
+ - Arquivo de output gerado: Resultados/Joao/eleicao/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 8.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta eleicao / Caso 4:
+ - Arquivo de output gerado: Resultados/Joao/eleicao/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 6.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta eleicao / Caso 5:
+ - Arquivo de output gerado: Resultados/Joao/eleicao/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 11.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta eleicao / Caso 6:
+ - Arquivo de output gerado: Resultados/Joao/eleicao/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 7.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta eleicao / Caso 7:
+ - Arquivo de output gerado: Resultados/Joao/eleicao/Casos/7/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 9.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta eleicao / Caso 8:
+ - Arquivo de output gerado: Resultados/Joao/eleicao/Casos/8/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 5.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta eleicao / Caso 9:
+ - Arquivo de output gerado: Resultados/Joao/eleicao/Casos/9/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 9.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta eleitor / Caso 1:
+ - Arquivo de output gerado: Resultados/Joao/eleitor/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleitor / Caso 10:
+ - Arquivo de output gerado: Resultados/Joao/eleitor/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleitor / Caso 2:
+ - Arquivo de output gerado: Resultados/Joao/eleitor/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleitor / Caso 3:
+ - Arquivo de output gerado: Resultados/Joao/eleitor/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleitor / Caso 4:
+ - Arquivo de output gerado: Resultados/Joao/eleitor/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleitor / Caso 5:
+ - Arquivo de output gerado: Resultados/Joao/eleitor/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleitor / Caso 6:
+ - Arquivo de output gerado: Resultados/Joao/eleitor/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleitor / Caso 7:
+ - Arquivo de output gerado: Resultados/Joao/eleitor/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleitor / Caso 8:
+ - Arquivo de output gerado: Resultados/Joao/eleitor/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta eleitor / Caso 9:
+ - Arquivo de output gerado: Resultados/Joao/eleitor/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 10:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 8:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 9:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 10:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 8:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 9:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: Joao
+ - Arquivos Corretos: 7 de 7 / Nota 10.00
+ - Compilações Corretas: 20 de 20 / Nota 10.00
+ - Linkagens Corretas: 3 de 5 / Nota 6.00
+ - Resultados Corretos candidato: 10 de 10 / Nota 10.00
+ - Valgrinds Corretos candidato: 10 de 10 / Nota 10.00
+ - Resultados Corretos eleicao: 2 de 10 / Nota 2.00
+ - Valgrinds Corretos eleicao: 0 de 10 / Nota 0.00
+ - Resultados Corretos eleitor: 10 de 10 / Nota 10.00
+ - Valgrinds Corretos eleitor: 10 de 10 / Nota 10.00
+ - Resultados Corretos main: 0 de 10 / Nota 0.00
+ - Valgrinds Corretos main: 0 de 10 / Nota 0.00
+ - Resultados Corretos completo: 0 de 10 / Nota 0.00
+ - Valgrinds Corretos completo: 0 de 10 / Nota 0.00
+ - Soma das notas do Joao: 68.000
+ - Campos Considerados: 13
+ - Média do Joao: 5.23
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+

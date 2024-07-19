@@ -1,0 +1,19 @@
+/usr/bin/ld: Resultados/.vscode/tabuleiro/jogador.o: in function `JogaJogador':
+jogador.c:(.text+0x104): undefined reference to `EhPosicaoValidaTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x124): undefined reference to `EstaLivrePosicaoTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x1cb): undefined reference to `MarcaPosicaoTabuleiro'
+/usr/bin/ld: Resultados/.vscode/tabuleiro/jogador.o: in function `VenceuJogador':
+jogador.c:(.text+0x2a1): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x2c6): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x2eb): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x31a): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x33f): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
+/usr/bin/ld: Resultados/.vscode/tabuleiro/jogador.o:jogador.c:(.text+0x364): more undefined references to `EstaMarcadaPosicaoPecaTabuleiro' follow
+/usr/bin/ld: Resultados/.vscode/tabuleiro/jogo.o: in function `CriaJogo':
+jogo.c:(.text+0x25): undefined reference to `CriaTabuleiro'
+/usr/bin/ld: Resultados/.vscode/tabuleiro/jogo.o: in function `ComecaJogo':
+jogo.c:(.text+0xe6): undefined reference to `ImprimeTabuleiro'
+/usr/bin/ld: jogo.c:(.text+0x16c): undefined reference to `ImprimeTabuleiro'
+/usr/bin/ld: Resultados/.vscode/tabuleiro/jogo.o: in function `AcabouJogo':
+jogo.c:(.text+0x1fd): undefined reference to `TemPosicaoLivreTabuleiro'
+collect2: error: ld returned 1 exit status

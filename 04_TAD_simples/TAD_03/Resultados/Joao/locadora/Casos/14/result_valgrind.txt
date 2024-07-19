@@ -1,0 +1,29 @@
+==54319== Memcheck, a memory error detector
+==54319== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==54319== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==54319== Command: Resultados/Joao/locadora/prog Resultados/Joao/locadora/Casos/14
+==54319== Parent PID: 54318
+==54319== 
+==54319== Conditional jump or move depends on uninitialised value(s)
+==54319==    at 0x109A6C: alugarFilmesLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54319==    by 0x109CE5: lerAluguelLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54319==    by 0x10A67B: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54319==  Uninitialised value was created by a stack allocation
+==54319==    at 0x109C28: lerAluguelLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54319== 
+==54319== Conditional jump or move depends on uninitialised value(s)
+==54319==    at 0x109E0F: devolverFilmesLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54319==    by 0x10A09E: lerDevolucaoLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54319==    by 0x10A6FC: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54319==  Uninitialised value was created by a stack allocation
+==54319==    at 0x109FE1: lerDevolucaoLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54319== 
+==54319== 
+==54319== HEAP SUMMARY:
+==54319==     in use at exit: 0 bytes in 0 blocks
+==54319==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==54319== 
+==54319== All heap blocks were freed -- no leaks are possible
+==54319== 
+==54319== For lists of detected and suppressed errors, rerun with: -s
+==54319== ERROR SUMMARY: 26 errors from 2 contexts (suppressed: 0 from 0)

@@ -1,0 +1,17 @@
+Empresa 1:
+- Funcionario 1: RS 5200.00
+Empresa 2:
+- Funcionario 31: RS 0.00
+Empresa 3:
+- Funcionario 31: RS 0.00
+- Funcionario -209691717: RS 0.00
+Empresa 4:
+- Funcionario 31: RS 0.00
+- Funcionario -209691717: RS 0.00
+- Funcionario 0: RS -170128811190611004212728695892599635968.00
+Empresa 5:
+- Funcionario 31: RS 0.00
+- Funcionario -209691717: RS 0.00
+- Funcionario 0: RS -170128811190611004212728695892599635968.00
+- Funcionario 31: RS -170128770625791796909387847998097063936.00
+- Funcionario 31: RS -170130961126028991289793634301235953664.00

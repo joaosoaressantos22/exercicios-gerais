@@ -1,0 +1,29 @@
+==55868== Memcheck, a memory error detector
+==55868== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==55868== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==55868== Command: Resultados/Joao/locadora/prog Resultados/Joao/locadora/Casos/8
+==55868== Parent PID: 55867
+==55868== 
+==55868== Conditional jump or move depends on uninitialised value(s)
+==55868==    at 0x109A6C: alugarFilmesLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==55868==    by 0x109CE5: lerAluguelLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==55868==    by 0x10A67B: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==55868==  Uninitialised value was created by a stack allocation
+==55868==    at 0x109C28: lerAluguelLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==55868== 
+==55868== Conditional jump or move depends on uninitialised value(s)
+==55868==    at 0x109E0F: devolverFilmesLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==55868==    by 0x10A09E: lerDevolucaoLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==55868==    by 0x10A6FC: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==55868==  Uninitialised value was created by a stack allocation
+==55868==    at 0x109FE1: lerDevolucaoLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==55868== 
+==55868== 
+==55868== HEAP SUMMARY:
+==55868==     in use at exit: 0 bytes in 0 blocks
+==55868==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==55868== 
+==55868== All heap blocks were freed -- no leaks are possible
+==55868== 
+==55868== For lists of detected and suppressed errors, rerun with: -s
+==55868== ERROR SUMMARY: 4 errors from 2 contexts (suppressed: 0 from 0)

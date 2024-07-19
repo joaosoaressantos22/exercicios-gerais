@@ -1,0 +1,11 @@
+
+Filme cadastrado 1 - Hannibal
+Filme cadastrado 2 - Tomb Raider
+Filme cadastrado 3 - Sword Fish
+~ESTOQUE~
+1 - Hannibal Fitas em Estoque: 1. Tem 0 alugadas
+3 - Sword Fish Fitas em Estoque: 1. Tem 0 alugadas
+2 - Tomb Raider Fitas em Estoque: 1. Tem 0 alugadas
+
+Lucro total: 0
+Lucro total: 0

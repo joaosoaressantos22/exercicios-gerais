@@ -1,0 +1,14 @@
+
+Filme cadastrado 1 - A Sociedade Do Anel
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em Estoque: 0. Tem 1 alugadas
+
+Lucro total: 5
+
+Filme 1 devolvido:
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em Estoque: 1. Tem 0 alugadas
+
+Lucro total: 5
+Lucro total: 5

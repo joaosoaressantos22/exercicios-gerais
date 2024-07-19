@@ -1,0 +1,21 @@
+==972== Memcheck, a memory error detector
+==972== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==972== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==972== Command: Resultados/Joao/departamento/prog Resultados/Joao/departamento/Casos/1
+==972== Parent PID: 971
+==972== 
+==972== Conditional jump or move depends on uninitialised value(s)
+==972==    at 0x109738: ordenaPorMediaDepartamentos (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Joao/departamento/prog)
+==972==    by 0x109C10: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Joao/departamento/prog)
+==972==  Uninitialised value was created by a stack allocation
+==972==    at 0x1091E9: criaDepartamento (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Joao/departamento/prog)
+==972== 
+==972== 
+==972== HEAP SUMMARY:
+==972==     in use at exit: 0 bytes in 0 blocks
+==972==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==972== 
+==972== All heap blocks were freed -- no leaks are possible
+==972== 
+==972== For lists of detected and suppressed errors, rerun with: -s
+==972== ERROR SUMMARY: 3 errors from 1 contexts (suppressed: 0 from 0)

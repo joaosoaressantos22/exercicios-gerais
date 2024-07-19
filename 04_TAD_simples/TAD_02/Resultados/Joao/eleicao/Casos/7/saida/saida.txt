@@ -1,0 +1,3 @@
+- PRESIDENTE ELEITO: Edsger Dijkstra (Partido do Melhor Caminho (PMC)), 4 voto(s), 40.00%
+- GOVERNADOR ELEITO: Linus Torvalds (Partido: Linux (Linux)), 3 voto(s), 30.00%
+- NULOS E BRANCOS: 7, 9

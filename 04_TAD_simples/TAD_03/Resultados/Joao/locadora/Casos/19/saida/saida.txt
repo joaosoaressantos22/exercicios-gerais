@@ -1,0 +1,87 @@
+
+Filme cadastrado 21 - The Last Castle
+Filme cadastrado 22 - Black Knight
+Filme cadastrado 23 - Legally Blonde
+Filme cadastrado 24 - The Glass House
+Filme cadastrado 25 - Tomb Raider
+~ESTOQUE~
+22 - Black Knight Fitas em Estoque: 3. Tem 0 alugadas
+23 - Legally Blonde Fitas em Estoque: 3. Tem 0 alugadas
+24 - The Glass House Fitas em Estoque: 1. Tem 0 alugadas
+21 - The Last Castle Fitas em Estoque: 5. Tem 0 alugadas
+25 - Tomb Raider Fitas em Estoque: 2. Tem 0 alugadas
+
+Lucro total: 0
+
+
+
+
+~ESTOQUE~
+22 - Black Knight Fitas em Estoque: 0. Tem 3 alugadas
+23 - Legally Blonde Fitas em Estoque: 1. Tem 2 alugadas
+24 - The Glass House Fitas em Estoque: 0. Tem 1 alugadas
+21 - The Last Castle Fitas em Estoque: 4. Tem 1 alugadas
+25 - Tomb Raider Fitas em Estoque: 0. Tem 2 alugadas
+
+Lucro total: 85
+
+Filme cadastrado 22 - Black Knight
+Filme cadastrado 23 - Legally Blonde
+Filme cadastrado 24 - The Glass House
+Filme cadastrado 21 - The Last Castle
+Filme cadastrado 25 - Tomb Raider
+Filme cadastrado 26 - Vanilla Sky
+Filme cadastrado 27 - Atlantis
+Filme cadastrado 28 - Spy Kids
+Filme cadastrado 29 - Enemy Gates
+Filme cadastrado 30 - Jimmy Neutron
+~ESTOQUE~
+27 - Atlantis Fitas em Estoque: 2. Tem 0 alugadas
+22 - Black Knight Fitas em Estoque: 0. Tem 3 alugadas
+29 - Enemy Gates Fitas em Estoque: 2. Tem 0 alugadas
+30 - Jimmy Neutron Fitas em Estoque: 10. Tem 0 alugadas
+23 - Legally Blonde Fitas em Estoque: 1. Tem 2 alugadas
+28 - Spy Kids Fitas em Estoque: 3. Tem 0 alugadas
+24 - The Glass House Fitas em Estoque: 0. Tem 1 alugadas
+21 - The Last Castle Fitas em Estoque: 4. Tem 1 alugadas
+25 - Tomb Raider Fitas em Estoque: 0. Tem 2 alugadas
+26 - Vanilla Sky Fitas em Estoque: 5. Tem 0 alugadas
+
+Lucro total: 85
+
+
+Filme 24 devolvido:
+Filme 25 devolvido:
+
+
+Filme 24 devolvido:
+Filme 29 devolvido:
+Filme 30 devolvido:
+
+Filme 25 devolvido:
+Filme 22 devolvido:
+
+Filme 21 devolvido:
+Filme 22 devolvido:
+Filme 23 devolvido:
+
+
+
+
+Filme 30 devolvido:
+Filme 29 devolvido:
+Filme 23 devolvido:
+~ESTOQUE~
+27 - Atlantis Fitas em Estoque: 2. Tem 0 alugadas
+22 - Black Knight Fitas em Estoque: 1. Tem 2 alugadas
+29 - Enemy Gates Fitas em Estoque: 2. Tem 0 alugadas
+30 - Jimmy Neutron Fitas em Estoque: 7. Tem 3 alugadas
+23 - Legally Blonde Fitas em Estoque: 2. Tem 1 alugadas
+28 - Spy Kids Fitas em Estoque: 3. Tem 0 alugadas
+24 - The Glass House Fitas em Estoque: 1. Tem 0 alugadas
+21 - The Last Castle Fitas em Estoque: 5. Tem 0 alugadas
+25 - Tomb Raider Fitas em Estoque: 2. Tem 0 alugadas
+26 - Vanilla Sky Fitas em Estoque: 4. Tem 1 alugadas
+
+Lucro total: 234
+Lucro total: 234

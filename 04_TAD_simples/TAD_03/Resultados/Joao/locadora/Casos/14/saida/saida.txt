@@ -1,0 +1,37 @@
+
+Filme cadastrado 2 - Tomb Raider
+Filme cadastrado 3 - Sword Fish
+
+~ESTOQUE~
+3 - Sword Fish Fitas em Estoque: 1. Tem 0 alugadas
+2 - Tomb Raider Fitas em Estoque: 1. Tem 0 alugadas
+
+Lucro total: 0
+
+Filme cadastrado 3 - Sword Fish
+Filme cadastrado 2 - Tomb Raider
+Filme cadastrado 4 - Shrek
+Filme cadastrado 1 - Donnie Darko
+~ESTOQUE~
+1 - Donnie Darko Fitas em Estoque: 2. Tem 0 alugadas
+4 - Shrek Fitas em Estoque: 1. Tem 0 alugadas
+3 - Sword Fish Fitas em Estoque: 1. Tem 0 alugadas
+2 - Tomb Raider Fitas em Estoque: 1. Tem 0 alugadas
+
+Lucro total: 0
+
+
+
+Filme 4 devolvido:
+
+
+
+Filme 2 devolvido:
+~ESTOQUE~
+1 - Donnie Darko Fitas em Estoque: 2. Tem 0 alugadas
+4 - Shrek Fitas em Estoque: 0. Tem 1 alugadas
+3 - Sword Fish Fitas em Estoque: 1. Tem 0 alugadas
+2 - Tomb Raider Fitas em Estoque: 1. Tem 0 alugadas
+
+Lucro total: 13
+Lucro total: 13

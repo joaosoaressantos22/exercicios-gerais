@@ -1,0 +1,29 @@
+==54166== Memcheck, a memory error detector
+==54166== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==54166== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==54166== Command: Resultados/Joao/locadora/prog Resultados/Joao/locadora/Casos/13
+==54166== Parent PID: 54165
+==54166== 
+==54166== Conditional jump or move depends on uninitialised value(s)
+==54166==    at 0x109A6C: alugarFilmesLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54166==    by 0x109CE5: lerAluguelLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54166==    by 0x10A67B: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54166==  Uninitialised value was created by a stack allocation
+==54166==    at 0x109C28: lerAluguelLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54166== 
+==54166== Conditional jump or move depends on uninitialised value(s)
+==54166==    at 0x109E0F: devolverFilmesLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54166==    by 0x10A09E: lerDevolucaoLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54166==    by 0x10A6FC: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54166==  Uninitialised value was created by a stack allocation
+==54166==    at 0x109FE1: lerDevolucaoLocadora (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_03/Resultados/Joao/locadora/prog)
+==54166== 
+==54166== 
+==54166== HEAP SUMMARY:
+==54166==     in use at exit: 0 bytes in 0 blocks
+==54166==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==54166== 
+==54166== All heap blocks were freed -- no leaks are possible
+==54166== 
+==54166== For lists of detected and suppressed errors, rerun with: -s
+==54166== ERROR SUMMARY: 6 errors from 2 contexts (suppressed: 0 from 0)

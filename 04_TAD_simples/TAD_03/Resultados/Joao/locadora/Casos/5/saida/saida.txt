@@ -1,0 +1,10 @@
+
+Filme cadastrado 1 - Final Fantasy
+Filme cadastrado 2 - Shrek
+
+~ESTOQUE~
+1 - Final Fantasy Fitas em Estoque: 0. Tem 1 alugadas
+2 - Shrek Fitas em Estoque: 0. Tem 1 alugadas
+
+Lucro total: 9
+Lucro total: 9

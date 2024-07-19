@@ -1,0 +1,9 @@
+
+Filme cadastrado 2 - Shrek
+Filme cadastrado 1 - Donnie Darko
+~ESTOQUE~
+1 - Donnie Darko Fitas em Estoque: 2. Tem 0 alugadas
+2 - Shrek Fitas em Estoque: 1. Tem 0 alugadas
+
+Lucro total: 0
+Lucro total: 0

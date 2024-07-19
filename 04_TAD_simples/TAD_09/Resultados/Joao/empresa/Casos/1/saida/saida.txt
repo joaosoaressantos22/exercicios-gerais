@@ -1,0 +1,4 @@
+Empresa 1:
+- Funcionario 31: RS 0.00
+- Funcionario 1432015278: RS 0.00
+- Funcionario 0: RS -170135626080237831173991142169031737344.00

@@ -1,0 +1,19 @@
+
+Código de filme ja cadastrado
+Filme cadastrado 2 - Shrek
+Filme cadastrado 3 - A Mumia
+Filme cadastrado 1 - Matrix
+Filme cadastrado 6 - A Sociedade Do Anel
+
+
+
+
+Filme 2 devolvido:
+~ESTOQUE~
+3 - A Mumia Fitas em Estoque: 3. Tem 0 alugadas
+6 - A Sociedade Do Anel Fitas em Estoque: 1. Tem 0 alugadas
+1 - Matrix Fitas em Estoque: 2. Tem 1 alugadas
+2 - Shrek Fitas em Estoque: 1. Tem 0 alugadas
+
+Lucro total: 6
+Lucro total: 6

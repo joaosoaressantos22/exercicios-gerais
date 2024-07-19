@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/.vscode/jogada/jogador.o: in function `JogaJogador':
+jogador.c:(.text+0x6d): undefined reference to `LeJogada'
+/usr/bin/ld: jogador.c:(.text+0x8d): undefined reference to `FoiJogadaBemSucedida'
+/usr/bin/ld: jogador.c:(.text+0xde): undefined reference to `ObtemJogadaX'
+/usr/bin/ld: jogador.c:(.text+0xf2): undefined reference to `ObtemJogadaY'
+collect2: error: ld returned 1 exit status

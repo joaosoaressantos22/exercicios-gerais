@@ -1,0 +1,7 @@
+Resultados/Joao/main/departamento.c: In function ‘validaMediaDepartamento’:
+Resultados/Joao/main/departamento.c:43:20: warning: comparison of constant ‘10’ with boolean expression is always true [-Wbool-compare]
+   43 |     if (0 <= media <= 10) return 1;
+      |                    ^~
+Resultados/Joao/main/departamento.c:43:11: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+   43 |     if (0 <= media <= 10) return 1;
+      |         ~~^~~~~~~~

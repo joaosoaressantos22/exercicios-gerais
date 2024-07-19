@@ -1,0 +1,744 @@
+==747202== Memcheck, a memory error detector
+==747202== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==747202== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==747202== Command: Resultados/Joao/main/prog Resultados/Joao/main/Casos/1
+==747202== Parent PID: 747201
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x109321: contrataFuncionarioEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109D42: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48D6AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x10934D: contrataFuncionarioEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109D42: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48BA2EB: _itoa_word (_itoa.c:177)
+==747202==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x10934D: contrataFuncionarioEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109D42: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BA2FC: _itoa_word (_itoa.c:177)
+==747202==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x10934D: contrataFuncionarioEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109D42: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48D65C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x10934D: contrataFuncionarioEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109D42: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48D5C05: __vfprintf_internal (vfprintf-internal.c:1516)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x10934D: contrataFuncionarioEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109D42: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48D6AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48BA2EB: _itoa_word (_itoa.c:177)
+==747202==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BA2FC: _itoa_word (_itoa.c:177)
+==747202==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48D65C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48D5C05: __vfprintf_internal (vfprintf-internal.c:1516)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BACB8: __printf_fp_l (printf_fp.c:396)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BACD2: __printf_fp_l (printf_fp.c:396)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48B650A: __mpn_extract_double (dbl2mpn.c:56)
+==747202==    by 0x48BAFCE: __printf_fp_l (printf_fp.c:396)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BB01E: __printf_fp_l (printf_fp.c:437)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BB041: __printf_fp_l (printf_fp.c:437)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48BB902: __printf_fp_l (printf_fp.c:437)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BB071: __printf_fp_l (printf_fp.c:438)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BB094: __printf_fp_l (printf_fp.c:438)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48BB096: __printf_fp_l (printf_fp.c:438)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BB0BF: __printf_fp_l (printf_fp.c:439)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BB0E4: __printf_fp_l (printf_fp.c:439)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48BB0E6: __printf_fp_l (printf_fp.c:439)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BB104: __printf_fp_l (printf_fp.c:446)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BC19D: __printf_fp_l (printf_fp.c:649)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48BC489: __printf_fp_l (printf_fp.c:665)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B4D6C: __mpn_lshift (lshift.S:59)
+==747202==    by 0x48BC48D: __printf_fp_l (printf_fp.c:665)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B4D6F: __mpn_lshift (lshift.S:60)
+==747202==    by 0x48BC48D: __printf_fp_l (printf_fp.c:665)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48BC4CA: __printf_fp_l (printf_fp.c:666)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BC58C: __printf_fp_l (printf_fp.c:677)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BC57F: __printf_fp_l (printf_fp.c:789)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B5428: __mpn_mul_1 (mul_1.S:36)
+==747202==    by 0x48B51EC: __mpn_mul (mul.c:81)
+==747202==    by 0x48BC5CA: __printf_fp_l (printf_fp.c:690)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B54B3: __mpn_mul_1 (mul_1.S:85)
+==747202==    by 0x48B51EC: __mpn_mul (mul.c:81)
+==747202==    by 0x48BC5CA: __printf_fp_l (printf_fp.c:690)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B5522: __mpn_mul_1 (mul_1.S:117)
+==747202==    by 0x48B51EC: __mpn_mul (mul.c:81)
+==747202==    by 0x48BC5CA: __printf_fp_l (printf_fp.c:690)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B51F9: __mpn_mul (mul.c:83)
+==747202==    by 0x48BC5CA: __printf_fp_l (printf_fp.c:690)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B453C: __mpn_addmul_1 (addmul_1.S:40)
+==747202==    by 0x1FFEFFF54F: ???
+==747202==    by 0x48BC5CA: __printf_fp_l (printf_fp.c:690)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B453F: __mpn_addmul_1 (addmul_1.S:41)
+==747202==    by 0x1FFEFFF54F: ???
+==747202==    by 0x48BC5CA: __printf_fp_l (printf_fp.c:690)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B5264: __mpn_mul (mul.c:98)
+==747202==    by 0x48BC5CA: __printf_fp_l (printf_fp.c:690)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48B5247: __mpn_mul (mul.c:88)
+==747202==    by 0x48BC5CA: __printf_fp_l (printf_fp.c:690)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BC50C: __printf_fp_l (printf_fp.c:694)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48BC52E: __printf_fp_l (printf_fp.c:697)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BC557: __printf_fp_l (printf_fp.c:706)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BC563: __printf_fp_l (printf_fp.c:728)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48BC60C: __printf_fp_l (printf_fp.c:745)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BC612: __printf_fp_l (printf_fp.c:745)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48BC628: __printf_fp_l (printf_fp.c:745)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BC64B: __printf_fp_l (printf_fp.c:745)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BC651: __printf_fp_l (printf_fp.c:746)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BCC38: __printf_fp_l (printf_fp.c:767)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B4EC0: __mpn_rshift (rshift.S:80)
+==747202==    by 0x48BCC53: __printf_fp_l (printf_fp.c:779)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B4F20: __mpn_rshift (rshift.S:108)
+==747202==    by 0x48BCC53: __printf_fp_l (printf_fp.c:779)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B549C: __mpn_mul_1 (mul_1.S:77)
+==747202==    by 0x48B51EC: __mpn_mul (mul.c:81)
+==747202==    by 0x48BC5CA: __printf_fp_l (printf_fp.c:690)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48B54FD: __mpn_mul_1 (mul_1.S:106)
+==747202==    by 0x48B51EC: __mpn_mul (mul.c:81)
+==747202==    by 0x48BC5CA: __printf_fp_l (printf_fp.c:690)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BD192: __printf_fp_l (printf_fp.c:746)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BD1A7: __printf_fp_l (printf_fp.c:756)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Use of uninitialised value of size 8
+==747202==    at 0x48BBA1E: __printf_fp_l (printf_fp.c:991)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BBA24: __printf_fp_l (printf_fp.c:991)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BBCD5: __printf_fp_l (printf_fp.c:1166)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48B650F: __mpn_extract_double (dbl2mpn.c:60)
+==747202==    by 0x48BAFCE: __printf_fp_l (printf_fp.c:396)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BB9B0: __printf_fp_l (printf_fp.c:978)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BB9EA: __printf_fp_l (printf_fp.c:981)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BBA58: round_away (rounding-mode.h:52)
+==747202==    by 0x48BBA58: __printf_fp_l (printf_fp.c:998)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BBF15: __printf_fp_l (printf_fp.c:1228)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Conditional jump or move depends on uninitialised value(s)
+==747202==    at 0x48BBEFB: __printf_fp_l (printf_fp.c:1230)
+==747202==    by 0x48D692C: __printf_fp_spec (vfprintf-internal.c:354)
+==747202==    by 0x48D692C: __vfprintf_internal (vfprintf-internal.c:1558)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x109969: imprimeFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109875: imprimeEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109F81: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== Syscall param write(buf) points to uninitialised byte(s)
+==747202==    at 0x4974887: write (write.c:26)
+==747202==    by 0x48EAEEC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1180)
+==747202==    by 0x48EC9E0: new_do_write (fileops.c:448)
+==747202==    by 0x48EC9E0: _IO_new_do_write (fileops.c:425)
+==747202==    by 0x48EC9E0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
+==747202==    by 0x48EE9C1: _IO_flush_all_lockp (genops.c:706)
+==747202==    by 0x48EEB7D: _IO_cleanup (genops.c:866)
+==747202==    by 0x48A5541: __run_exit_handlers (exit.c:134)
+==747202==    by 0x48A560F: exit (exit.c:143)
+==747202==    by 0x4889D96: (below main) (libc_start_call_main.h:74)
+==747202==  Address 0x4a8c395 is 277 bytes inside a block of size 512 alloc'd
+==747202==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==747202==    by 0x48DEBA3: _IO_file_doallocate (filedoalloc.c:101)
+==747202==    by 0x48EDCDF: _IO_doallocbuf (genops.c:347)
+==747202==    by 0x48ECF5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==747202==    by 0x48EB6D4: _IO_new_file_xsputn (fileops.c:1243)
+==747202==    by 0x48EB6D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==747202==    by 0x48D514C: outstring_func (vfprintf-internal.c:239)
+==747202==    by 0x48D514C: __vfprintf_internal (vfprintf-internal.c:1263)
+==747202==    by 0x48C079E: printf (printf.c:33)
+==747202==    by 0x10934D: contrataFuncionarioEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109618: leEmpresa (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==    by 0x109B0F: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202==  Uninitialised value was created by a stack allocation
+==747202==    at 0x1098B8: leFuncionario (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Joao/main/prog)
+==747202== 
+==747202== 
+==747202== HEAP SUMMARY:
+==747202==     in use at exit: 0 bytes in 0 blocks
+==747202==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==747202== 
+==747202== All heap blocks were freed -- no leaks are possible
+==747202== 
+==747202== For lists of detected and suppressed errors, rerun with: -s
+==747202== ERROR SUMMARY: 173 errors from 65 contexts (suppressed: 0 from 0)

@@ -1,0 +1,27 @@
+==35913== Memcheck, a memory error detector
+==35913== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==35913== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==35913== Command: Resultados/Joao/eleicao/prog Resultados/Joao/eleicao/Casos/3
+==35913== Parent PID: 35912
+==35913== 
+==35913== Conditional jump or move depends on uninitialised value(s)
+==35913==    at 0x109D74: RealizaEleicao (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Joao/eleicao/prog)
+==35913==    by 0x10A852: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Joao/eleicao/prog)
+==35913==  Uninitialised value was created by a stack allocation
+==35913==    at 0x1094FC: InicializaEleicao (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Joao/eleicao/prog)
+==35913== 
+==35913== Conditional jump or move depends on uninitialised value(s)
+==35913==    at 0x10A286: RealizaEleicao (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Joao/eleicao/prog)
+==35913==    by 0x10A852: main (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Joao/eleicao/prog)
+==35913==  Uninitialised value was created by a stack allocation
+==35913==    at 0x1094FC: InicializaEleicao (in /mnt/c/Users/jotav/Desktop/faculdade/Revisao/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Joao/eleicao/prog)
+==35913== 
+==35913== 
+==35913== HEAP SUMMARY:
+==35913==     in use at exit: 0 bytes in 0 blocks
+==35913==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==35913== 
+==35913== All heap blocks were freed -- no leaks are possible
+==35913== 
+==35913== For lists of detected and suppressed errors, rerun with: -s
+==35913== ERROR SUMMARY: 8 errors from 2 contexts (suppressed: 0 from 0)

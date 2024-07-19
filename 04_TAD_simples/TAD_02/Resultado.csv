@@ -1,0 +1,2 @@
+Nome,Arquivos,Compilação,Linkagem,Resultado candidato,Valgrind candidato,Resultado eleicao,Valgrind eleicao,Resultado eleitor,Valgrind eleitor,Resultado main,Valgrind main,Resultado completo,Valgrind completo,Média
+Joao,10.00,10.00,6.00,10.00,10.00,2.00,0.00,10.00,10.00,0.00,0.00,0.00,0.00,5.23

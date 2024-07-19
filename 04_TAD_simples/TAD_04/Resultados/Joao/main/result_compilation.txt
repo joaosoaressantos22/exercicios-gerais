@@ -1,0 +1,4 @@
+Resultados/Joao/main/aluno.c: In function ‘LeAluno’:
+Resultados/Joao/main/aluno.c:29:21: warning: unused variable ‘qtd’ [-Wunused-variable]
+   29 |     int n1, n2, n3, qtd;
+      |                     ^~~

@@ -1,0 +1,64 @@
+
+Código de filme ja cadastrado
+Filme cadastrado 1 - Hannibal
+Filme cadastrado 2 - Tomb Raider
+Filme cadastrado 3 - Sword Fish
+~ESTOQUE~
+1 - Hannibal Fitas em Estoque: 1. Tem 0 alugadas
+3 - Sword Fish Fitas em Estoque: 1. Tem 0 alugadas
+2 - Tomb Raider Fitas em Estoque: 6. Tem 0 alugadas
+
+Lucro total: 0
+
+~ESTOQUE~
+1 - Hannibal Fitas em Estoque: 0. Tem 1 alugadas
+3 - Sword Fish Fitas em Estoque: 0. Tem 1 alugadas
+2 - Tomb Raider Fitas em Estoque: 5. Tem 1 alugadas
+
+Lucro total: 23
+
+Filme 1 devolvido:
+~ESTOQUE~
+1 - Hannibal Fitas em Estoque: 1. Tem 0 alugadas
+3 - Sword Fish Fitas em Estoque: 0. Tem 1 alugadas
+2 - Tomb Raider Fitas em Estoque: 5. Tem 1 alugadas
+
+Lucro total: 23
+
+Filme 2 devolvido:
+
+
+Filme cadastrado 1 - Hannibal
+Filme cadastrado 3 - Sword Fish
+Filme cadastrado 2 - Tomb Raider
+Filme cadastrado 15 - Shrek
+
+
+~ESTOQUE~
+1 - Hannibal Fitas em Estoque: 1. Tem 0 alugadas
+15 - Shrek Fitas em Estoque: 0. Tem 1 alugadas
+3 - Sword Fish Fitas em Estoque: 0. Tem 1 alugadas
+2 - Tomb Raider Fitas em Estoque: 6. Tem 0 alugadas
+
+Lucro total: 27
+
+
+~ESTOQUE~
+1 - Hannibal Fitas em Estoque: 0. Tem 1 alugadas
+15 - Shrek Fitas em Estoque: 0. Tem 1 alugadas
+3 - Sword Fish Fitas em Estoque: 0. Tem 1 alugadas
+2 - Tomb Raider Fitas em Estoque: 4. Tem 2 alugadas
+
+Lucro total: 52
+
+Filme 2 devolvido:
+
+Filme 2 devolvido:
+~ESTOQUE~
+1 - Hannibal Fitas em Estoque: 0. Tem 1 alugadas
+15 - Shrek Fitas em Estoque: 0. Tem 1 alugadas
+3 - Sword Fish Fitas em Estoque: 0. Tem 1 alugadas
+2 - Tomb Raider Fitas em Estoque: 6. Tem 0 alugadas
+
+Lucro total: 52
+Lucro total: 52

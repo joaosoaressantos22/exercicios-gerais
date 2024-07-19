@@ -1,0 +1,312 @@
+Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: .vscode
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA .vscode:
+ - Diretório Resultados/.vscode criado com sucesso!
+ - Diretório Resultados/.vscode/jogada criado com sucesso!
+ - Diretório Resultados/.vscode/jogador criado com sucesso!
+ - Diretório Resultados/.vscode/jogo criado com sucesso!
+ - Diretório Resultados/.vscode/main criado com sucesso!
+ - Diretório Resultados/.vscode/tabuleiro criado com sucesso!
+ - Diretório Resultados/.vscode/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/.vscode/jogada.c' não encontrado!
+ - Arquivo esperado 'Respostas/.vscode/jogada.h' não encontrado!
+ - Arquivo esperado 'Respostas/.vscode/jogador.c' não encontrado!
+ - Arquivo esperado 'Respostas/.vscode/jogador.h' não encontrado!
+ - Arquivo esperado 'Respostas/.vscode/jogo.c' não encontrado!
+ - Arquivo esperado 'Respostas/.vscode/jogo.h' não encontrado!
+ - Arquivo esperado 'Respostas/.vscode/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/.vscode/tabuleiro.c' não encontrado!
+ - Arquivo esperado 'Respostas/.vscode/tabuleiro.h' não encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta jogada:
+ - Copiando os Casos de teste para a pasta Resultados/.vscode/jogada
+ - Copiando os 'Respostas/.vscode/*.c' do aluno para a pasta Resultados/.vscode/jogada
+ - Pasta jogador:
+ - Copiando os Casos de teste para a pasta Resultados/.vscode/jogador
+ - Copiando os 'Respostas/.vscode/*.c' do aluno para a pasta Resultados/.vscode/jogador
+ - Pasta jogo:
+ - Copiando os Casos de teste para a pasta Resultados/.vscode/jogo
+ - Copiando os 'Respostas/.vscode/*.c' do aluno para a pasta Resultados/.vscode/jogo
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/.vscode/main
+ - Copiando os 'Respostas/.vscode/*.c' do aluno para a pasta Resultados/.vscode/main
+ - Pasta tabuleiro:
+ - Copiando os Casos de teste para a pasta Resultados/.vscode/tabuleiro
+ - Copiando os 'Respostas/.vscode/*.c' do aluno para a pasta Resultados/.vscode/tabuleiro
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/.vscode/completo
+ - Copiando os 'Respostas/.vscode/*.c' do aluno para a pasta Resultados/.vscode/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta jogada:
+ - Compilando o arquivo jogada.c do aluno, gerando o jogada.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogada/jogada.c está correto.
+ - Compilando o arquivo jogador.c do aluno, gerando o jogador.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogada/jogador.c está correto.
+ - Compilando o arquivo jogo.c do aluno, gerando o jogo.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogada/jogo.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogada/main.c está correto.
+ - Compilando o arquivo tabuleiro.c do aluno, gerando o tabuleiro.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogada/tabuleiro.c está correto.
+ - Arquivo de output gerado: Resultados/.vscode/jogada/result_compilation.txt.
+ - Pasta jogador:
+ - Compilando o arquivo jogada.c do aluno, gerando o jogada.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogador/jogada.c está correto.
+ - Compilando o arquivo jogador.c do aluno, gerando o jogador.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogador/jogador.c está correto.
+ - Compilando o arquivo jogo.c do aluno, gerando o jogo.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogador/jogo.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogador/main.c está correto.
+ - Compilando o arquivo tabuleiro.c do aluno, gerando o tabuleiro.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogador/tabuleiro.c está correto.
+ - Arquivo de output gerado: Resultados/.vscode/jogador/result_compilation.txt.
+ - Pasta jogo:
+ - Compilando o arquivo jogada.c do aluno, gerando o jogada.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogo/jogada.c está correto.
+ - Compilando o arquivo jogador.c do aluno, gerando o jogador.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogo/jogador.c está correto.
+ - Compilando o arquivo jogo.c do aluno, gerando o jogo.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogo/jogo.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogo/main.c está correto.
+ - Compilando o arquivo tabuleiro.c do aluno, gerando o tabuleiro.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/jogo/tabuleiro.c está correto.
+ - Arquivo de output gerado: Resultados/.vscode/jogo/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo jogada.c do aluno, gerando o jogada.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/main/jogada.c está correto.
+ - Compilando o arquivo jogador.c do aluno, gerando o jogador.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/main/jogador.c está correto.
+ - Compilando o arquivo jogo.c do aluno, gerando o jogo.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/main/jogo.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/main/main.c está correto.
+ - Compilando o arquivo tabuleiro.c do aluno, gerando o tabuleiro.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/main/tabuleiro.c está correto.
+ - Arquivo de output gerado: Resultados/.vscode/main/result_compilation.txt.
+ - Pasta tabuleiro:
+ - Compilando o arquivo jogada.c do aluno, gerando o jogada.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/tabuleiro/jogada.c está correto.
+ - Compilando o arquivo jogador.c do aluno, gerando o jogador.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/tabuleiro/jogador.c está correto.
+ - Compilando o arquivo jogo.c do aluno, gerando o jogo.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/tabuleiro/jogo.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/tabuleiro/main.c está correto.
+ - Compilando o arquivo tabuleiro.c do aluno, gerando o tabuleiro.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/tabuleiro/tabuleiro.c está correto.
+ - Arquivo de output gerado: Resultados/.vscode/tabuleiro/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo jogada.c do aluno, gerando o jogada.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/completo/jogada.c está correto.
+ - Compilando o arquivo jogador.c do aluno, gerando o jogador.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/completo/jogador.c está correto.
+ - Compilando o arquivo jogo.c do aluno, gerando o jogo.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/completo/jogo.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/completo/main.c está correto.
+ - Compilando o arquivo tabuleiro.c do aluno, gerando o tabuleiro.o
+ - Erro de compilação! Verifique se o arquivo Resultados/.vscode/completo/tabuleiro.c está correto.
+ - Arquivo de output gerado: Resultados/.vscode/completo/result_compilation.txt.
+ - Arquivos Compilados: Erro!: 30 arquivos com erros de compilacao.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do .vscode:
+ - Copiando o Gabarito-obj/jogada.o para a pasta Resultados/.vscode/jogador
+ - Copiando o Gabarito-obj/jogada.o para a pasta Resultados/.vscode/jogo
+ - Copiando o Gabarito-obj/jogada.o para a pasta Resultados/.vscode/main
+ - Copiando o Gabarito-obj/jogada.o para a pasta Resultados/.vscode/tabuleiro
+ - Copiando o Gabarito-obj/jogador.o para a pasta Resultados/.vscode/jogada
+ - Copiando o Gabarito-obj/jogador.o para a pasta Resultados/.vscode/jogo
+ - Copiando o Gabarito-obj/jogador.o para a pasta Resultados/.vscode/main
+ - Copiando o Gabarito-obj/jogador.o para a pasta Resultados/.vscode/tabuleiro
+ - Copiando o Gabarito-obj/jogo.o para a pasta Resultados/.vscode/jogada
+ - Copiando o Gabarito-obj/jogo.o para a pasta Resultados/.vscode/jogador
+ - Copiando o Gabarito-obj/jogo.o para a pasta Resultados/.vscode/main
+ - Copiando o Gabarito-obj/jogo.o para a pasta Resultados/.vscode/tabuleiro
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/.vscode/jogada
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/.vscode/jogador
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/.vscode/jogo
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/.vscode/tabuleiro
+ - Copiando o Gabarito-obj/tabuleiro.o para a pasta Resultados/.vscode/jogada
+ - Copiando o Gabarito-obj/tabuleiro.o para a pasta Resultados/.vscode/jogador
+ - Copiando o Gabarito-obj/tabuleiro.o para a pasta Resultados/.vscode/jogo
+ - Copiando o Gabarito-obj/tabuleiro.o para a pasta Resultados/.vscode/main
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta jogada:
+ - Gerando o binário prog linkando com o(s) arquivo(s) jogada/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/.vscode/jogada/result_linking.txt
+ - Pasta jogador:
+ - Gerando o binário prog linkando com o(s) arquivo(s) jogador/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/.vscode/jogador/result_linking.txt
+ - Pasta jogo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) jogo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/.vscode/jogo/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/.vscode/main/result_linking.txt
+ - Pasta tabuleiro:
+ - Gerando o binário prog linkando com o(s) arquivo(s) tabuleiro/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/.vscode/tabuleiro/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/.vscode/completo/result_linking.txt
+ - Arquivos Linkados: Erro! 6 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta jogada / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogada / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogada / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogada / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogada / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogada / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogador / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogador / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogador / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogador / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogador / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogador / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta jogo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta tabuleiro / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta tabuleiro / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta tabuleiro / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta tabuleiro / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta tabuleiro / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta tabuleiro / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: .vscode
+ - Arquivos Corretos: 0 de 9 / Nota 0.00
+ - Compilações Corretas: 0 de 30 / Nota 0.00
+ - Linkagens Corretas: 0 de 6 / Nota 0.00
+ - Resultados Corretos jogada: 0 de 6 / Nota 0.00
+ - Valgrinds Corretos jogada: 0 de 6 / Nota 0.00
+ - Resultados Corretos jogador: 0 de 6 / Nota 0.00
+ - Valgrinds Corretos jogador: 0 de 6 / Nota 0.00
+ - Resultados Corretos jogo: 0 de 6 / Nota 0.00
+ - Valgrinds Corretos jogo: 0 de 6 / Nota 0.00
+ - Resultados Corretos main: 0 de 6 / Nota 0.00
+ - Valgrinds Corretos main: 0 de 6 / Nota 0.00
+ - Resultados Corretos tabuleiro: 0 de 6 / Nota 0.00
+ - Valgrinds Corretos tabuleiro: 0 de 6 / Nota 0.00
+ - Resultados Corretos completo: 0 de 6 / Nota 0.00
+ - Valgrinds Corretos completo: 0 de 6 / Nota 0.00
+ - Soma das notas do .vscode: 0
+ - Campos Considerados: 15
+ - Média do .vscode: 0.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
